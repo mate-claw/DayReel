@@ -147,7 +147,7 @@ Mock 模式会跳过 Qwen 请求，但仍然需要 S3 和 Shotstack 配置来完
 
 ### 许可证
 
-建议使用 MIT License。正式开源前可以添加 `LICENSE` 文件。
+本项目采用 MIT License，详见 [LICENSE](LICENSE)。
 
 ---
 
@@ -292,4 +292,4 @@ Mock mode skips Qwen calls, but S3 and Shotstack are still required for uploadin
 
 ### License
 
-MIT License is recommended. Add a `LICENSE` file before publishing a stable open-source release.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
