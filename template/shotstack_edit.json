@@ -1,0 +1,422 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://github.com/notofonts/noto-cjk/raw/main/Sans/Variable/OTF/NotoSansCJKsc-VF.otf"
+      }
+    ],
+    "background": "#FFFFFF",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "audio",
+              "src": "{{ AUDIO }}",
+              "volume": 1
+            },
+            "start": 0
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Title}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Woodland",
+                "size": "150",
+                "lineHeight": 1
+              },
+              "width": 800,
+              "height": 200
+            },
+            "start": 0,
+            "length": "end",
+            "offset": {
+              "x": 0,
+              "y": 0.396
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "{{Subtitle}}",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "{{ FONT_COLOR }}",
+                "family": "Woodland",
+                "size": "70",
+                "lineHeight": 1
+              },
+              "width": 600,
+              "height": 100
+            },
+            "start": 1.8,
+            "length": "end",
+            "offset": {
+              "x": 0.222,
+              "y": -0.448
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_6 }}",
+              "volume": 0
+            },
+            "start": 1.6,
+            "scale": 0.3,
+            "offset": {
+              "x": 0.35,
+              "y": -0.187
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -6
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_5 }}",
+              "volume": 0
+            },
+            "start": 1.4,
+            "scale": 0.3,
+            "transform": {
+              "rotate": {
+                "angle": -6
+              }
+            },
+            "offset": {
+              "x": 0,
+              "y": -0.205
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_4 }}",
+              "volume": 0
+            },
+            "start": 1.2,
+            "scale": 0.3,
+            "offset": {
+              "x": -0.34,
+              "y": -0.226
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": -6
+              }
+            },
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1900,
+              "height": 620,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 1,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": -6
+              }
+            },
+            "offset": {
+              "x": -0.07,
+              "y": -0.211
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideLeft"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_3 }}",
+              "volume": 0
+            },
+            "start": 0.4,
+            "scale": 0.29,
+            "offset": {
+              "x": 0.325,
+              "y": 0.072
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 9
+              }
+            },
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_1 }}",
+              "volume": 0
+            },
+            "start": 0.8,
+            "scale": 0.275,
+            "offset": {
+              "x": -0.353,
+              "y": 0.135
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 9
+              }
+            },
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "length": "end",
+            "asset": {
+              "type": "video",
+              "src": "{{ VIDEO_2 }}",
+              "volume": 0
+            },
+            "start": 0.6,
+            "scale": 0.295,
+            "offset": {
+              "x": -0.02,
+              "y": 0.101
+            },
+            "position": "center",
+            "transform": {
+              "rotate": {
+                "angle": 9
+              }
+            },
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1900,
+              "height": 605,
+              "background": {
+                "color": "{{ SHAPE_COLOR }}"
+              }
+            },
+            "start": 0.2,
+            "length": "end",
+            "transform": {
+              "rotate": {
+                "angle": 9
+              }
+            },
+            "offset": {
+              "x": 0.005,
+              "y": 0.101
+            },
+            "position": "center",
+            "transition": {
+              "in": "slideRight"
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "text",
+              "text": "",
+              "alignment": {
+                "horizontal": "center",
+                "vertical": "center"
+              },
+              "font": {
+                "color": "#000000",
+                "family": "Montserrat SemiBold",
+                "size": 24,
+                "lineHeight": 1
+              },
+              "width": 1080,
+              "height": 1920,
+              "background": {
+                "color": "{{ BACKGROUND_COLOR_2 }}"
+              }
+            },
+            "start": 0,
+            "length": 10,
+            "position": "center"
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "fps": 25,
+    "size": {
+      "width": 1080,
+      "height": 1920
+    },
+    "destinations": [
+      {
+        "provider": "shotstack"
+      }
+    ]
+  },
+  "merge": [
+    {
+      "find": "Title",
+      "replace": "Nature-themed visit"
+    },
+    {
+      "find": "Subtitle",
+      "replace": "Wild memories, tamed in time."
+    },
+    {
+      "find": "VIDEO_1",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/49b48e8b-99ca-4e44-9f62-24ff62fdaca1/source.mp4"
+    },
+    {
+      "find": "VIDEO_2",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/6677376a-48f9-4080-b8d8-a606c3fbe638/source.mp4"
+    },
+    {
+      "find": "VIDEO_3",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/974dad58-1946-454e-b963-f1e2c26dbe3c/source.mp4"
+    },
+    {
+      "find": "VIDEO_4",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/7cbf62c9-76c1-49b4-a55b-3b5e0f9daeca/source.mp4"
+    },
+    {
+      "find": "VIDEO_5",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/c56f5f75-e5f4-4344-9ef2-17cd93a43c77/source.mp4"
+    },
+    {
+      "find": "VIDEO_6",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/7eb42462-01e8-42cb-914c-01a7ab36fd7d/source.mp4"
+    },
+    {
+      "find": "FONT_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "SHAPE_COLOR",
+      "replace": "#ffffff"
+    },
+    {
+      "find": "BACKGROUND_COLOR_2",
+      "replace": "#936b62"
+    },
+    {
+      "find": "AUDIO",
+      "replace": "https://templates.shotstack.io/nature-themed-promo-template/6e3c7058-a6c0-4f3e-8a8e-2c7c5953029b/source.mp3"
+    }
+  ]
+}
